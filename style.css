@@ -1,49 +1,88 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F9F9F9;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header {
-
-    background-color: #00263C;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #00263c;
     color: #F0000A;
     text-align: center;
     justify-content: center;
-    height: 60px;
-
-}
-
-header h1 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    position: relative;
+  }
+  header h1 {
     margin: 0;
-}
-
-.inputBox {
-    padding: 200px;
+  }
+  
+  .inputBox {
+    padding: 100px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.inputBox input {
-    height: 32px;
+    gap: 4px;
+  }
+  .inputBox input {
+    height: 40px;
     width: 80%;
-}
-
-#text {
+    max-width: 600px;
+    padding: 0 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  #button {
+    background-color: #F0000A;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 2px solid #900f1e;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  #button:hover {
+    background-color: #F0000A;
+    transform: scale(1.05);
+  }
+  
+  #button:active {
+    background-color: #900f1e;
+    transform: scale(0.98);
+  }
+  #text,
+  h3 {
+    display: flex;
+    color: #F0000A;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-
-footer {
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+  
+  footer {
     position: fixed;
-    color: #646464;
+    color: #F0000A;
+    font-family: sans-serif;
+    font-weight: 600;
     bottom: 0;
     width: 100%;
-    background-color: #00263C;
-    text-align: end;
-    padding-right: 100px;
+    background-color: #00263c;
+    text-align: right;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
+  }
+  footer p {
+    padding-right: 8%;
+  }
+  
