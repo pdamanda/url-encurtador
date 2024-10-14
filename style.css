@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+
+    background-color: #00263C;
+    color: #F0000A;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+.inputBox {
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox input {
+    height: 32px;
+    width: 80%;
+}
+
+#text {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    color: #646464;
+    bottom: 0;
+    width: 100%;
+    background-color: #00263C;
+    text-align: end;
+    padding-right: 100px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
